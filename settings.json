@@ -1,0 +1,113 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.env.windows": {},
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.rulers": [100],
+  "editor.fontFamily": "jetbrains mono, hack, code new roman, fira code, menlo",
+  // "editor.fontFamily": "jetbrains mono",
+  "editor.fontLigatures": true,
+  "[html][javascript][typescript][javascriptreact][typescriptreact][css][scss][sass][vue]": {
+    "editor.tabSize": 2
+  },
+  "emmet.includeLanguages": {
+    "php-html": "html"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[typescriptreact][javascriptreact]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // Add ".*Styles" (or whatever matches your naming scheme)
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    ".*Styles",
+    ".*ClassName",
+    ".*Style"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css",
+    "typescript": "typescript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "mdb.confirmRunAll": false,
+  "console-ninja.featureSet": "Community",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "terminal.integrated.fontFamily": "firacode nerd font",
+  "terminal.integrated.fontSize": 12,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontSize": 12,
+  "liveServer.settings.donotVerifyTags": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveSassCompile.settings.showOutputWindowOn": "Debug",
+  "workbench.startupEditor": "none",
+  "prettier.semi": false,
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-turbo-preview",
+  "editor.formatOnPaste": true,
+  "githubPullRequests.fileListLayout": "tree",
+  "tailwind-fold.autoFold": false,
+  "prettier.singleQuote": true,
+  "[git-commit]": {
+    "editor.rulers": [72, 50],
+    "editor.wordWrap": "off"
+  },
+  "git.inputValidationLength": 50,
+  "git.inputValidationSubjectLength": 72,
+  "liveSassCompile.settings.compileOnWatch": false,
+  "console-ninja.outputMode": "In View",
+  "terminal.integrated.scrollback": 5000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "codeium.detectProxy": false,
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "vscode-pets.petType": "dog",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.theme": "castle",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "vscode-pets.petColor": "magical",
+  "rapidapi.terminalLink.enabled": false,
+  "svgPreview.style": {
+    "html": {
+      "background": "white"
+    }
+  },
+  "files.associations": {
+    "*.xml": "html",
+    "*.svg": "html"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "security.promptForLocalFileProtocolHandling": false
+}
